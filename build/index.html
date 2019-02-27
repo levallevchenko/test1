@@ -1,0 +1,402 @@
+<!-- Emails use the XHTML Strict doctype -->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" style="background: #e2f4ff; min-height: 100%;">
+<head>
+  <!-- The character set should be utf-8 -->
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <!-- Enables media queries -->
+  <meta name="viewport" content="width=device-width">
+  <!-- Link to the email's CSS, which will be inlined into the email -->
+  <style>
+@media only screen and (max-width:596px) {
+  .small-float-center {
+    margin: 0 auto !important;
+    float: none !important;
+  }
+  .small-float-center,.small-text-center {
+    text-align: center !important;
+  }
+  .small-text-left {
+    text-align: left !important;
+  }
+  .small-text-right {
+    text-align: right !important;
+  }
+}
+
+
+@media only screen and (max-width:596px) {
+  table.body table.container .hide-for-large {
+    display: block !important;
+    width: auto !important;
+    overflow: visible !important;
+  }
+}
+
+
+@media only screen and (max-width:596px) {
+  table.body table.container .row.hide-for-large {
+    display: table !important;
+    width: 100% !important;
+  }
+  table.body table.container .show-for-large {
+    display: none !important;
+    width: 0;
+    mso-hide: all;
+    overflow: hidden;
+  }
+}
+
+
+@media only screen and (max-width:596px) {
+  table.body img {
+    height: auto !important;
+  }
+  table.body center {
+    min-width: 0 !important;
+  }
+  table.body .container {
+    width: 95% !important;
+  }
+  table.body .column,table.body .columns {
+    height: auto !important;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    padding-left: 16px !important;
+    padding-right: 16px !important;
+  }
+  table.body .collapse .column,table.body .collapse .columns,table.body .column .column,table.body .column .columns,table.body .columns .column,table.body .columns .columns {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+  .body .column td.small-1,.body .column th.small-1,.body .columns td.small-1,.body .columns th.small-1,td.small-1,td.small-1 center,th.small-1,th.small-1 center {
+    display: inline-block !important;
+    width: 8.33333% !important;
+  }
+  .body .column td.small-2,.body .column th.small-2,.body .columns td.small-2,.body .columns th.small-2,td.small-2,td.small-2 center,th.small-2,th.small-2 center {
+    display: inline-block !important;
+    width: 16.66667% !important;
+  }
+  .body .column td.small-3,.body .column th.small-3,.body .columns td.small-3,.body .columns th.small-3,td.small-3,td.small-3 center,th.small-3,th.small-3 center {
+    display: inline-block !important;
+    width: 25% !important;
+  }
+  .body .column td.small-4,.body .column th.small-4,.body .columns td.small-4,.body .columns th.small-4,td.small-4,td.small-4 center,th.small-4,th.small-4 center {
+    display: inline-block !important;
+    width: 33.33333% !important;
+  }
+  .body .column td.small-5,.body .column th.small-5,.body .columns td.small-5,.body .columns th.small-5,td.small-5,td.small-5 center,th.small-5,th.small-5 center {
+    display: inline-block !important;
+    width: 41.66667% !important;
+  }
+  .body .column td.small-6,.body .column th.small-6,.body .columns td.small-6,.body .columns th.small-6,td.small-6,td.small-6 center,th.small-6,th.small-6 center {
+    display: inline-block !important;
+    width: 50% !important;
+  }
+  .body .column td.small-7,.body .column th.small-7,.body .columns td.small-7,.body .columns th.small-7,td.small-7,td.small-7 center,th.small-7,th.small-7 center {
+    display: inline-block !important;
+    width: 58.33333% !important;
+  }
+  .body .column td.small-8,.body .column th.small-8,.body .columns td.small-8,.body .columns th.small-8,td.small-8,td.small-8 center,th.small-8,th.small-8 center {
+    display: inline-block !important;
+    width: 66.66667% !important;
+  }
+  .body .column td.small-9,.body .column th.small-9,.body .columns td.small-9,.body .columns th.small-9,td.small-9,td.small-9 center,th.small-9,th.small-9 center {
+    display: inline-block !important;
+    width: 75% !important;
+  }
+  .body .column td.small-10,.body .column th.small-10,.body .columns td.small-10,.body .columns th.small-10,td.small-10,td.small-10 center,th.small-10,th.small-10 center {
+    display: inline-block !important;
+    width: 83.33333% !important;
+  }
+  .body .column td.small-11,.body .column th.small-11,.body .columns td.small-11,.body .columns th.small-11,td.small-11,td.small-11 center,th.small-11,th.small-11 center {
+    display: inline-block !important;
+    width: 91.66667% !important;
+  }
+  table.menu td,table.menu th,td.small-12,th.small-12 {
+    display: inline-block !important;
+    width: 100% !important;
+  }
+  .column td.small-12,.column th.small-12,.columns td.small-12,.columns th.small-12 {
+    display: block !important;
+    width: 100% !important;
+  }
+  table.body td.small-offset-1,table.body th.small-offset-1 {
+    margin-left: 8.33333% !important;
+    Margin-left: 8.33333% !important;
+  }
+  table.body td.small-offset-2,table.body th.small-offset-2 {
+    margin-left: 16.66667% !important;
+    Margin-left: 16.66667% !important;
+  }
+  table.body td.small-offset-3,table.body th.small-offset-3 {
+    margin-left: 25% !important;
+    Margin-left: 25% !important;
+  }
+  table.body td.small-offset-4,table.body th.small-offset-4 {
+    margin-left: 33.33333% !important;
+    Margin-left: 33.33333% !important;
+  }
+  table.body td.small-offset-5,table.body th.small-offset-5 {
+    margin-left: 41.66667% !important;
+    Margin-left: 41.66667% !important;
+  }
+  table.body td.small-offset-6,table.body th.small-offset-6 {
+    margin-left: 50% !important;
+    Margin-left: 50% !important;
+  }
+  table.body td.small-offset-7,table.body th.small-offset-7 {
+    margin-left: 58.33333% !important;
+    Margin-left: 58.33333% !important;
+  }
+  table.body td.small-offset-8,table.body th.small-offset-8 {
+    margin-left: 66.66667% !important;
+    Margin-left: 66.66667% !important;
+  }
+  table.body td.small-offset-9,table.body th.small-offset-9 {
+    margin-left: 75% !important;
+    Margin-left: 75% !important;
+  }
+  table.body td.small-offset-10,table.body th.small-offset-10 {
+    margin-left: 83.33333% !important;
+    Margin-left: 83.33333% !important;
+  }
+  table.body td.small-offset-11,table.body th.small-offset-11 {
+    margin-left: 91.66667% !important;
+    Margin-left: 91.66667% !important;
+  }
+  table.body table.columns td.expander,table.body table.columns th.expander {
+    display: none !important;
+  }
+  table.body .right-text-pad,table.body .text-pad-right {
+    padding-left: 10px !important;
+  }
+  table.body .left-text-pad,table.body .text-pad-left {
+    padding-right: 10px !important;
+  }
+  table.menu td,table.menu th {
+    width: auto !important;
+  }
+  table.menu.small-vertical td,table.menu.small-vertical th,table.menu.vertical td,table.menu.vertical th {
+    display: block !important;
+  }
+  table.menu[align=center] {
+    width: auto !important;
+  }
+  table.button.expand,table.menu {
+    width: 100% !important;
+  }
+}
+
+
+@media only screen and (max-width:960px) {
+  .bg-img {
+    background-size: 51%,100%;
+  }
+}
+
+
+@media only screen and (max-width:436px) {
+  .bg-img {
+    background-position: 99% 22px,0 0;
+  }
+}
+
+
+@media only screen and (max-width:596px) {
+  .list-item {
+    padding-left: 25px !important;
+  }
+  .icon {
+    position: absolute;
+    left: 0;
+  }
+  .icon--drag {
+    top: 18px;
+  }
+  .icon--scale {
+    top: 82px;
+  }
+  .icon--choose {
+    left: 5px;
+    top: 151px;
+  }
+}
+
+
+@media only screen and (max-width:497px) {
+  .icon--drag {
+    top: 30px;
+  }
+  .icon--scale {
+    top: 109px;
+  }
+  .icon--choose {
+    left: 5px;
+    top: 180px;
+  }
+}
+</style>
+<!--  <link rel="stylesheet" href="custom.css">-->
+  
+</head>
+<body style="-moz-box-sizing: border-box; -ms-text-size-adjust: 100%; -webkit-box-sizing: border-box; -webkit-text-size-adjust: 100%; Margin: 0; box-sizing: border-box; color: #3c3e44; font-family: 'Roboto',Arial,sans-serif; font-size: 32px; font-weight: 400; line-height: 19px; margin: 0; min-width: 100%; padding: 0; text-align: left; width: 100% !important;">
+      
+    <table class="body" style="Margin: 0; background: #e2f4ff; border-collapse: collapse; border-spacing: 0; color: #3c3e44; font-family: 'Roboto',Arial,sans-serif; font-size: 32px; font-weight: 400; height: 100%; line-height: 19px; margin: 0; padding: 0; text-align: left; vertical-align: top; width: 100%;">
+      <tr class="bg-img" style="background: url(http://cloclo44.datacloudmail.ru/weblink/view/Ca95/J34GaXEc9/stairs.png?etag=AA1158108B8C917E6F3DF15FBEF5BF59D5292786&key=50dc3ce05501dbbccbe9c6346c1e4294d8bb9001) no-repeat 99% 14px,url(http://cloclo44.datacloudmail.ru/weblink/view/Ca95/J34GaXEc9/bgheader.png?etag=E93CAB9EF863FDA2BAD5F3414023F910D3C57808&key=50dc3ce05501dbbccbe9c6346c1e4294d8bb9001) no-repeat 0 -23px; background-size: 49%,100%; padding: 0; text-align: left; vertical-align: top;">
+        <td style="-moz-hyphens: auto; -webkit-hyphens: auto; Margin: 0; border-collapse: collapse !important; color: #3c3e44; font-family: 'Roboto',Arial,sans-serif; font-size: 32px; font-weight: 400; hyphens: auto; line-height: 19px; margin: 0; padding: 0; text-align: left; vertical-align: top; word-wrap: break-word;">
+          <center data-parsed style="min-width: 580px; width: 100%;">
+            <table class="spacer float-center" style="Margin: 0 auto; border-collapse: collapse; border-spacing: 0; float: none; margin: 0 auto; padding: 0; text-align: center; vertical-align: top;"><tbody><tr style="padding: 0; text-align: left; vertical-align: top;"><td height="50pxpx" style="-moz-hyphens: auto; -webkit-hyphens: auto; Margin: 0; border-collapse: collapse !important; color: #3c3e44; font-family: 'Roboto',Arial,sans-serif; font-size: 50pxpx; font-weight: 400; hyphens: auto; line-height: 50pxpx; margin: 0; padding: 0; text-align: left; vertical-align: top; word-wrap: break-word;">&#xA0;</td></tr></tbody></table> 
+            <table align="center" class="container no-bg float-center" style="Margin: 0 auto; background: 0 0 !important; border-collapse: collapse; border-spacing: 0; float: none; margin: 0 auto; padding: 0; text-align: center; vertical-align: top; width: 580px;"><tbody><tr style="padding: 0; text-align: left; vertical-align: top;"><td style="-moz-hyphens: auto; -webkit-hyphens: auto; Margin: 0; border-collapse: collapse !important; color: #3c3e44; font-family: 'Roboto',Arial,sans-serif; font-size: 32px; font-weight: 400; hyphens: auto; line-height: 19px; margin: 0; padding: 0; text-align: left; vertical-align: top; word-wrap: break-word;">
+                <table class="row" style="border-collapse: collapse; border-spacing: 0; display: table; padding: 0; position: relative; text-align: left; vertical-align: top; width: 100%;"><tbody><tr style="padding: 0; text-align: left; vertical-align: top;">
+                    <th class="small-12 large-6 columns first last" style="Margin: 0 auto; color: #3c3e44; font-family: 'Roboto',Arial,sans-serif; font-size: 32px; font-weight: 400; line-height: 19px; margin: 0 auto; padding: 0; padding-bottom: 16px; padding-left: 16px; padding-right: 16px; text-align: left; width: 274px;"><table style="border-collapse: collapse; border-spacing: 0; padding: 0; text-align: left; vertical-align: top; width: 100%;"><tr style="padding: 0; text-align: left; vertical-align: top;"><th style="Margin: 0; color: #3c3e44; font-family: 'Roboto',Arial,sans-serif; font-size: 32px; font-weight: 400; line-height: 19px; margin: 0; padding: 0; text-align: left;">
+                        <a class="no-bg" href="https://iqoption.com/ru" style="Margin: 0; background: 0 0 !important; color: #003dd8; font-family: 'Roboto',Arial,sans-serif; font-weight: 400; line-height: 1.3; margin: 0; padding: 0; text-align: left; text-decoration: none;">
+                            <img class="no-bg logo" src="http://cloclo41.datacloudmail.ru/weblink/view/Ca95/J34GaXEc9/logo%20iq_black.png?etag=DC1E6E0A6579EABEC52F196930114314D716122D&key=50dc3ce05501dbbccbe9c6346c1e4294d8bb9001" alt="iq-options logo" width="167" height="35" style="-ms-interpolation-mode: bicubic; background: 0 0 !important; border: 0; clear: both; display: block; height: auto; max-width: 100%; outline: 0; text-decoration: none; width: 167px;">
+                        </a>
+                    </th></tr></table></th>
+                </tr></tbody></table>
+            </td></tr></tbody></table>
+            <table class="spacer float-center" style="Margin: 0 auto; border-collapse: collapse; border-spacing: 0; float: none; margin: 0 auto; padding: 0; text-align: center; vertical-align: top;"><tbody><tr style="padding: 0; text-align: left; vertical-align: top;"><td height="30pxpx" style="-moz-hyphens: auto; -webkit-hyphens: auto; Margin: 0; border-collapse: collapse !important; color: #3c3e44; font-family: 'Roboto',Arial,sans-serif; font-size: 30pxpx; font-weight: 400; hyphens: auto; line-height: 30pxpx; margin: 0; padding: 0; text-align: left; vertical-align: top; word-wrap: break-word;">&#xA0;</td></tr></tbody></table> 
+            <table align="center" class="container no-bg float-center" style="Margin: 0 auto; background: 0 0 !important; border-collapse: collapse; border-spacing: 0; float: none; margin: 0 auto; padding: 0; text-align: center; vertical-align: top; width: 580px;"><tbody><tr style="padding: 0; text-align: left; vertical-align: top;"><td style="-moz-hyphens: auto; -webkit-hyphens: auto; Margin: 0; border-collapse: collapse !important; color: #3c3e44; font-family: 'Roboto',Arial,sans-serif; font-size: 32px; font-weight: 400; hyphens: auto; line-height: 19px; margin: 0; padding: 0; text-align: left; vertical-align: top; word-wrap: break-word;">
+                <table class="row" style="border-collapse: collapse; border-spacing: 0; display: table; padding: 0; position: relative; text-align: left; vertical-align: top; width: 100%;"><tbody><tr style="padding: 0; text-align: left; vertical-align: top;">
+                    <th class="small-12 large-12 columns first last" style="Margin: 0 auto; color: #3c3e44; font-family: 'Roboto',Arial,sans-serif; font-size: 32px; font-weight: 400; line-height: 19px; margin: 0 auto; padding: 0; padding-bottom: 16px; padding-left: 16px; padding-right: 16px; text-align: left; width: 564px;"><table style="border-collapse: collapse; border-spacing: 0; padding: 0; text-align: left; vertical-align: top; width: 100%;"><tr style="padding: 0; text-align: left; vertical-align: top;"><th style="Margin: 0; color: #3c3e44; font-family: 'Roboto',Arial,sans-serif; font-size: 32px; font-weight: 400; line-height: 19px; margin: 0; padding: 0; text-align: left;">
+                        <h1 class="main-heading" style="Margin: 0; Margin-bottom: 10px; color: #003dd8; font-family: 'Roboto',Arial,sans-serif; font-size: 37px; font-weight: 500; line-height: 1.3; margin: 0; margin-bottom: 10px; padding: 0; text-align: left; word-wrap: normal;"><span class="name" style="color: #ff0940; font-size: 45px; font-weight: 700;">3 Easy Steps</span><br> to Improve your <br>Chance of Success</h1>
+                        <p class="subtitle" style="Margin: 0; Margin-bottom: 10px; color: #3c3e44; font-family: 'Roboto',Arial,sans-serif; font-size: 20px; font-weight: 500; line-height: 28px; margin: 0; margin-bottom: 10px; padding: 0; text-align: left;">These steps are simple, effective and 100% free.</p>
+                    </th>
+<th class="expander" style="Margin: 0; color: #3c3e44; font-family: 'Roboto',Arial,sans-serif; font-size: 32px; font-weight: 400; line-height: 19px; margin: 0; padding: 0 !important; text-align: left; visibility: hidden; width: 0;"></th></tr></table></th>
+                </tr></tbody></table>
+            </td></tr></tbody></table>
+
+            <table align="center" class="container angle--top float-center" style="Margin: 0 auto; background: #fff; border-collapse: collapse; border-radius: 10px 10px 0 0; border-spacing: 0; float: none; margin: 0 auto; padding: 0; text-align: center; vertical-align: top; width: 580px;"><tbody><tr style="padding: 0; text-align: left; vertical-align: top;"><td style="-moz-hyphens: auto; -webkit-hyphens: auto; Margin: 0; border-collapse: collapse !important; color: #3c3e44; font-family: 'Roboto',Arial,sans-serif; font-size: 32px; font-weight: 400; hyphens: auto; line-height: 19px; margin: 0; padding: 0; text-align: left; vertical-align: top; word-wrap: break-word;">
+               <table class="spacer" style="border-collapse: collapse; border-spacing: 0; padding: 0; text-align: left; vertical-align: top;"><tbody><tr style="padding: 0; text-align: left; vertical-align: top;"><td height="42pxpx" style="-moz-hyphens: auto; -webkit-hyphens: auto; Margin: 0; border-collapse: collapse !important; color: #3c3e44; font-family: 'Roboto',Arial,sans-serif; font-size: 42pxpx; font-weight: 400; hyphens: auto; line-height: 42pxpx; margin: 0; padding: 0; text-align: left; vertical-align: top; word-wrap: break-word;">&#xA0;</td></tr></tbody></table> 
+                <table class="row" style="border-collapse: collapse; border-spacing: 0; display: table; padding: 0; position: relative; text-align: left; vertical-align: top; width: 100%;"><tbody><tr style="padding: 0; text-align: left; vertical-align: top;">
+                    <th class="small-12 large-12 columns first last" style="Margin: 0 auto; color: #3c3e44; font-family: 'Roboto',Arial,sans-serif; font-size: 32px; font-weight: 400; line-height: 19px; margin: 0 auto; padding: 0; padding-bottom: 16px; padding-left: 16px; padding-right: 16px; text-align: left; width: 564px;"><table style="border-collapse: collapse; border-spacing: 0; padding: 0; text-align: left; vertical-align: top; width: 100%;"><tr style="padding: 0; text-align: left; vertical-align: top;"><th style="Margin: 0; color: #3c3e44; font-family: 'Roboto',Arial,sans-serif; font-size: 32px; font-weight: 400; line-height: 19px; margin: 0; padding: 0; text-align: left;">
+                        <h2 class="main-sub-heading price-chart" style="Margin: 0; Margin-bottom: 10px; color: #003dd8; font-family: 'Roboto',Arial,sans-serif; font-size: 25px; font-weight: 700; line-height: 2; margin: 0; margin-bottom: 0 !important; padding: 0 30px; text-align: left; word-wrap: normal;"><b class="border-bt" style="border-bottom: 3px solid #003dd8; padding-bottom: 12px;">1. Play</b> around with the Price Chart</h2>
+                        <table class="spacer show-for-large" style="border-collapse: collapse; border-spacing: 0; padding: 0; text-align: left; vertical-align: top; width: 100%;"><tbody><tr style="padding: 0; text-align: left; vertical-align: top;"><td height="30pxpx" style="-moz-hyphens: auto; -webkit-hyphens: auto; Margin: 0; border-collapse: collapse !important; color: #3c3e44; font-family: 'Roboto',Arial,sans-serif; font-size: 30pxpx; font-weight: 400; hyphens: auto; line-height: 30pxpx; margin: 0; padding: 0; text-align: left; vertical-align: top; word-wrap: break-word;">&#xA0;</td></tr></tbody></table> 
+                        <p class="description price-chart" style="Margin: 0; Margin-bottom: 10px; color: #3c3e44; font-family: 'Roboto',Arial,sans-serif; font-size: 18px; font-weight: 400; line-height: 25px; margin: 0; margin-bottom: 10px; padding: 0 30px; text-align: left;">Did you know you can adjust the price chart to your personal preference and trading goals? So simple, yet so <b>useful for making more accurate predictions.</b></p>
+                    </th>
+<th class="expander" style="Margin: 0; color: #3c3e44; font-family: 'Roboto',Arial,sans-serif; font-size: 32px; font-weight: 400; line-height: 19px; margin: 0; padding: 0 !important; text-align: left; visibility: hidden; width: 0;"></th></tr></table></th>
+                </tr></tbody></table>
+                <table class="spacer" style="border-collapse: collapse; border-spacing: 0; padding: 0; text-align: left; vertical-align: top;"><tbody><tr style="padding: 0; text-align: left; vertical-align: top;"><td height="5pxpx" style="-moz-hyphens: auto; -webkit-hyphens: auto; Margin: 0; border-collapse: collapse !important; color: #3c3e44; font-family: 'Roboto',Arial,sans-serif; font-size: 5pxpx; font-weight: 400; hyphens: auto; line-height: 5pxpx; margin: 0; padding: 0; text-align: left; vertical-align: top; word-wrap: break-word;">&#xA0;</td></tr></tbody></table> 
+                <table class="row" style="border-collapse: collapse; border-spacing: 0; display: table; padding: 0; position: relative; text-align: left; vertical-align: top; width: 100%;"><tbody><tr style="padding: 0; text-align: left; vertical-align: top;">
+                   <center data-parsed style="min-width: 580px; width: 100%;">
+                        <img class="instrument float-center" src=" http://cloclo42.datacloudmail.ru/weblink/view/Ca95/J34GaXEc9/instrument.png?etag=133A8D6CD5420A060162297BB7C4C8601B716EE7&key=7a9f4ea4346c0b737ecd8fa17be859b2477e8efb" alt="available trading instrument" width="432" height="246" align="center" style="-ms-interpolation-mode: bicubic; Margin: 0 auto; clear: both; display: block; float: none; height: auto !important; margin: 0 auto; max-width: 100%; outline: 0; text-align: center; text-decoration: none; width: 75% !important;">
+                    </center>
+                </tr></tbody></table>
+                <table class="spacer" style="border-collapse: collapse; border-spacing: 0; padding: 0; text-align: left; vertical-align: top;"><tbody><tr style="padding: 0; text-align: left; vertical-align: top;"><td height="25pxpx" style="-moz-hyphens: auto; -webkit-hyphens: auto; Margin: 0; border-collapse: collapse !important; color: #3c3e44; font-family: 'Roboto',Arial,sans-serif; font-size: 25pxpx; font-weight: 400; hyphens: auto; line-height: 25pxpx; margin: 0; padding: 0; text-align: left; vertical-align: top; word-wrap: break-word;">&#xA0;</td></tr></tbody></table> 
+                <table class="row" style="border-collapse: collapse; border-spacing: 0; display: table; padding: 0; position: relative; text-align: left; vertical-align: top; width: 100%;"><tbody><tr style="padding: 0; text-align: left; vertical-align: top;">
+                   <center data-parsed style="min-width: 580px; width: 100%;">
+                        <h2 class="main-sub-heading txt-center float-center" align="center" style="Margin: 0; Margin-bottom: 10px; color: #003dd8; font-family: 'Roboto',Arial,sans-serif; font-size: 25px; font-weight: 700; line-height: 2; margin: 0; margin-bottom: 0 !important; padding: 0; text-align: center !important; word-wrap: normal;">You Can:</h2>
+                    </center>
+                </tr></tbody></table>
+                <table class="spacer show-for-large" style="border-collapse: collapse; border-spacing: 0; padding: 0; text-align: left; vertical-align: top;"><tbody><tr style="padding: 0; text-align: left; vertical-align: top;"><td height="10pxpx" style="-moz-hyphens: auto; -webkit-hyphens: auto; Margin: 0; border-collapse: collapse !important; color: #3c3e44; font-family: 'Roboto',Arial,sans-serif; font-size: 10pxpx; font-weight: 400; hyphens: auto; line-height: 10pxpx; margin: 0; padding: 0; text-align: left; vertical-align: top; word-wrap: break-word;">&#xA0;</td></tr></tbody></table> 
+            </td></tr></tbody></table>
+            <center align="center" class="float-center" data-parsed style="min-width: 580px; width: 100%;">
+               <table align="center" class="container angle--bottom float-center" style="Margin: 0 auto; background: #fff; border-collapse: collapse; border-radius: 0 0 10px 10px; border-spacing: 0; float: none; margin: 0 auto; padding: 0; text-align: center; vertical-align: top; width: 580px;"><tbody><tr style="padding: 0; text-align: left; vertical-align: top;"><td style="-moz-hyphens: auto; -webkit-hyphens: auto; Margin: 0; border-collapse: collapse !important; color: #3c3e44; font-family: 'Roboto',Arial,sans-serif; font-size: 32px; font-weight: 400; hyphens: auto; line-height: 19px; margin: 0; padding: 0; text-align: left; vertical-align: top; word-wrap: break-word;">
+                    <table align="center" class="container list" style="Margin: 0 auto; background: #fff; border-collapse: collapse; border-spacing: 0; margin: 0 auto; padding: 0; text-align: inherit; vertical-align: top; width: 95% !important;"><tbody><tr style="padding: 0; text-align: left; vertical-align: top;"><td style="-moz-hyphens: auto; -webkit-hyphens: auto; Margin: 0; border-collapse: collapse !important; color: #3c3e44; font-family: 'Roboto',Arial,sans-serif; font-size: 32px; font-weight: 400; hyphens: auto; line-height: 19px; margin: 0; padding: 0; text-align: left; vertical-align: top; word-wrap: break-word;">
+                        <table class="row no-padding" style="border-collapse: collapse; border-spacing: 0; display: table; padding: 0 !important; position: relative; text-align: left; vertical-align: top; width: 100%;"><tbody><tr style="padding: 0; text-align: left; vertical-align: top;">
+                            <th class="no-padding small-3 large-3 columns first" first style="Margin: 0 auto; color: #3c3e44; font-family: 'Roboto',Arial,sans-serif; font-size: 32px; font-weight: 400; line-height: 19px; margin: 0 auto; padding: 0 !important; padding-bottom: 16px; padding-left: 16px; padding-right: 8px; text-align: left; width: 129px;"><table style="border-collapse: collapse; border-spacing: 0; padding: 0; text-align: left; vertical-align: top; width: 100%;"><tr style="padding: 0; text-align: left; vertical-align: top;"><th style="Margin: 0; color: #3c3e44; font-family: 'Roboto',Arial,sans-serif; font-size: 32px; font-weight: 400; line-height: 19px; margin: 0; padding: 0; text-align: left;">
+                                <center data-parsed style="min-width: 97px; width: 100%;">
+                                    <img class="icon icon--drag float-center" src="http://cloclo11.datacloudmail.ru/weblink/view/Ca95/J34GaXEc9/drag.png?etag=6D8BDB6F9353373BB3EE05D631CE1875C156E689&key=50dc3ce05501dbbccbe9c6346c1e4294d8bb9001" alt="hold and drag icon" width="30" height="33" align="center" style="-ms-interpolation-mode: bicubic; Margin: 0 auto; clear: both; display: block; float: none; height: auto; margin: 0 auto; max-width: 100%; outline: 0; padding-bottom: 3px; text-align: center; text-decoration: none; width: 30px !important;">
+                                </center>
+                            </th></tr></table></th>
+                            <th class="no-padding small-3 large-3 columns" style="Margin: 0 auto; color: #3c3e44; font-family: 'Roboto',Arial,sans-serif; font-size: 32px; font-weight: 400; line-height: 19px; margin: 0 auto; padding: 0 !important; padding-bottom: 16px; padding-left: 8px; padding-right: 8px; text-align: left; width: 129px;"><table style="border-collapse: collapse; border-spacing: 0; padding: 0; text-align: left; vertical-align: top; width: 100%;"><tr style="padding: 0; text-align: left; vertical-align: top;"><th style="Margin: 0; color: #3c3e44; font-family: 'Roboto',Arial,sans-serif; font-size: 32px; font-weight: 400; line-height: 19px; margin: 0; padding: 0; text-align: left;">
+                                <center data-parsed style="min-width: 97px; width: 100%;">
+                                    <img class="icon icon--scale float-center" src="http://cloclo11.datacloudmail.ru/weblink/view/Ca95/J34GaXEc9/scale.png?etag=23A5E0E552C32D3FB97E0A84096455EE0B70F5AA&key=50dc3ce05501dbbccbe9c6346c1e4294d8bb9001" alt="scale-icon" width="30" height="32" align="center" style="-ms-interpolation-mode: bicubic; Margin: 0 auto; clear: both; display: block; float: none; height: auto; margin: 0 auto; max-width: 100%; outline: 0; padding-bottom: 3px; text-align: center; text-decoration: none; width: 30px !important;">
+                                </center>
+                            </th></tr></table></th>
+                            <th class="no-padding small-3 large-3 columns last" style="Margin: 0 auto; color: #3c3e44; font-family: 'Roboto',Arial,sans-serif; font-size: 32px; font-weight: 400; line-height: 19px; margin: 0 auto; padding: 0 !important; padding-bottom: 16px; padding-left: 8px; padding-right: 16px; text-align: left; width: 129px;"><table style="border-collapse: collapse; border-spacing: 0; padding: 0; text-align: left; vertical-align: top; width: 100%;"><tr style="padding: 0; text-align: left; vertical-align: top;"><th style="Margin: 0; color: #3c3e44; font-family: 'Roboto',Arial,sans-serif; font-size: 32px; font-weight: 400; line-height: 19px; margin: 0; padding: 0; text-align: left;">
+                                <center data-parsed style="min-width: 97px; width: 100%;">
+                                    <img class="icon icon--choose float-center" src="http://cloclo11.datacloudmail.ru/weblink/view/Ca95/J34GaXEc9/choose.png?etag=A2D052B0FCB26457BA6EC3F9A50225939BD7851A&key=50dc3ce05501dbbccbe9c6346c1e4294d8bb9001" alt="choose-icon" width="29" height="41" align="center" style="-ms-interpolation-mode: bicubic; Margin: 0 auto; clear: both; display: block; float: none; height: auto; margin: 0 auto; max-width: 100%; outline: 0; padding-bottom: 7px; text-align: center; text-decoration: none; width: 29px !important;">
+                                </center>
+                            </th></tr></table></th>
+                        </tr></tbody></table>
+                        <table class="row" style="border-collapse: collapse; border-spacing: 0; display: table; padding: 0; position: relative; text-align: left; vertical-align: top; width: 100%;"><tbody><tr style="padding: 0; text-align: left; vertical-align: top;">
+                            <th class="small-12 large-3 columns first" style="Margin: 0 auto; color: #3c3e44; font-family: 'Roboto',Arial,sans-serif; font-size: 32px; font-weight: 400; line-height: 19px; margin: 0 auto; padding: 0; padding-bottom: 16px; padding-left: 16px; padding-right: 8px; text-align: left; width: 129px;"><table style="border-collapse: collapse; border-spacing: 0; padding: 0; text-align: left; vertical-align: top; width: 100%;"><tr style="padding: 0; text-align: left; vertical-align: top;"><th style="Margin: 0; color: #3c3e44; font-family: 'Roboto',Arial,sans-serif; font-size: 32px; font-weight: 400; line-height: 19px; margin: 0; padding: 0; text-align: left;">
+                                <p class="list-item" style="Margin: 0; Margin-bottom: 10px; color: #3c3e44; font-family: 'Roboto',Arial,sans-serif; font-size: 16px; font-weight: 400; line-height: 25px; margin: 0; margin-bottom: 10px; padding: 0; text-align: left;"><b>Hold and drag</b>
+                                the chart to review
+                                earlier price dynamic.
+                                </p>
+                            </th></tr></table></th>
+                            <th class="small-12 large-3 columns" style="Margin: 0 auto; color: #3c3e44; font-family: 'Roboto',Arial,sans-serif; font-size: 32px; font-weight: 400; line-height: 19px; margin: 0 auto; padding: 0; padding-bottom: 16px; padding-left: 8px; padding-right: 8px; text-align: left; width: 129px;"><table style="border-collapse: collapse; border-spacing: 0; padding: 0; text-align: left; vertical-align: top; width: 100%;"><tr style="padding: 0; text-align: left; vertical-align: top;"><th style="Margin: 0; color: #3c3e44; font-family: 'Roboto',Arial,sans-serif; font-size: 32px; font-weight: 400; line-height: 19px; margin: 0; padding: 0; text-align: left;">
+                                <p class="list-item" style="Margin: 0; Margin-bottom: 10px; color: #3c3e44; font-family: 'Roboto',Arial,sans-serif; font-size: 16px; font-weight: 400; line-height: 25px; margin: 0; margin-bottom: 10px; padding: 0; text-align: left;"><b>Scale the chart</b> by changing the display period between 30 days and 30 minutes. </p>
+                            </th></tr></table></th>
+                            <th class="small-12 large-3 columns last" style="Margin: 0 auto; color: #3c3e44; font-family: 'Roboto',Arial,sans-serif; font-size: 32px; font-weight: 400; line-height: 19px; margin: 0 auto; padding: 0; padding-bottom: 16px; padding-left: 8px; padding-right: 16px; text-align: left; width: 129px;"><table style="border-collapse: collapse; border-spacing: 0; padding: 0; text-align: left; vertical-align: top; width: 100%;"><tr style="padding: 0; text-align: left; vertical-align: top;"><th style="Margin: 0; color: #3c3e44; font-family: 'Roboto',Arial,sans-serif; font-size: 32px; font-weight: 400; line-height: 19px; margin: 0; padding: 0; text-align: left;">
+                                <p class="list-item" style="Margin: 0; Margin-bottom: 10px; color: #3c3e44; font-family: 'Roboto',Arial,sans-serif; font-size: 16px; font-weight: 400; line-height: 25px; margin: 0; margin-bottom: 10px; padding: 0; text-align: left;"><b>Choose the type of chart</b> you want to use. Do you prefer Lines, Candles or Bars?
+                                </p>
+                            </th></tr></table></th>
+                        </tr></tbody></table>
+                    </td></tr></tbody></table>
+                    <table class="spacer" style="border-collapse: collapse; border-spacing: 0; padding: 0; text-align: left; vertical-align: top;"><tbody><tr style="padding: 0; text-align: left; vertical-align: top;"><td height="20pxpx" style="-moz-hyphens: auto; -webkit-hyphens: auto; Margin: 0; border-collapse: collapse !important; color: #3c3e44; font-family: 'Roboto',Arial,sans-serif; font-size: 20pxpx; font-weight: 400; hyphens: auto; line-height: 20pxpx; margin: 0; padding: 0; text-align: left; vertical-align: top; word-wrap: break-word;">&#xA0;</td></tr></tbody></table> 
+                </td></tr></tbody></table>
+                
+            </center>
+            <table class="spacer float-center" style="Margin: 0 auto; border-collapse: collapse; border-spacing: 0; float: none; margin: 0 auto; padding: 0; text-align: center; vertical-align: top;"><tbody><tr style="padding: 0; text-align: left; vertical-align: top;"><td height="30pxpx" style="-moz-hyphens: auto; -webkit-hyphens: auto; Margin: 0; border-collapse: collapse !important; color: #3c3e44; font-family: 'Roboto',Arial,sans-serif; font-size: 30pxpx; font-weight: 400; hyphens: auto; line-height: 30pxpx; margin: 0; padding: 0; text-align: left; vertical-align: top; word-wrap: break-word;">&#xA0;</td></tr></tbody></table> 
+            <table align="center" class="container angle float-center" style="Margin: 0 auto; background: #fff; border: 0; border-collapse: collapse; border-radius: 10px; border-spacing: 0; float: none; margin: 0 auto; padding: 0; text-align: center; vertical-align: top; width: 580px;"><tbody><tr style="padding: 0; text-align: left; vertical-align: top;"><td style="-moz-hyphens: auto; -webkit-hyphens: auto; Margin: 0; border-collapse: collapse !important; color: #3c3e44; font-family: 'Roboto',Arial,sans-serif; font-size: 32px; font-weight: 400; hyphens: auto; line-height: 19px; margin: 0; padding: 0; text-align: left; vertical-align: top; word-wrap: break-word;">
+                <img src="http://cloclo37.datacloudmail.ru/weblink/view/Ca95/J34GaXEc9/blurred.png?etag=403C13EF50665825FC5BECF018C17F992B8A2DA5&key=50dc3ce05501dbbccbe9c6346c1e4294d8bb9001" alt="blurred background picture" width="580" height="auto" style="-ms-interpolation-mode: bicubic; clear: both; display: block; max-width: 100%; outline: 0; text-decoration: none; width: auto;">
+            </td></tr></tbody></table>
+            <table align="center" class="container read-box-empty float-center" style="Margin: 0 auto; background: #fff; border-collapse: collapse; border-spacing: 0; color: transparent; float: none; height: 0 !important; margin: 0 auto; padding: 0; position: relative; text-align: center; vertical-align: top; width: 100% !important;"><tbody><tr style="padding: 0; text-align: left; vertical-align: top;"><td style="-moz-hyphens: auto; -webkit-hyphens: auto; Margin: 0; border-collapse: collapse !important; color: #3c3e44; font-family: 'Roboto',Arial,sans-serif; font-size: 32px; font-weight: 400; hyphens: auto; line-height: 19px; margin: 0; padding: 0; text-align: left; vertical-align: top; word-wrap: break-word;">
+                <table align="center" class="container read-box" style="Margin: 0 auto; background: #fff; background-color: #003dd8 !important; border-collapse: collapse; border-spacing: 0; height: 210px !important; margin: 0 auto; padding: 0; position: absolute; text-align: inherit; top: -242px; vertical-align: top; width: 100% !important;"><tbody><tr style="padding: 0; text-align: left; vertical-align: top;"><td style="-moz-hyphens: auto; -webkit-hyphens: auto; Margin: 0; border-collapse: collapse !important; color: #3c3e44; font-family: 'Roboto',Arial,sans-serif; font-size: 32px; font-weight: 400; hyphens: auto; line-height: 19px; margin: 0; padding: 0; text-align: left; vertical-align: top; word-wrap: break-word;">
+                    <center data-parsed style="min-width: 580px; width: 100%;">
+                        <img class="icon--paper float-center" src="http://cloclo11.datacloudmail.ru/weblink/view/Ca95/J34GaXEc9/read.png?etag=5B9AA51EBCDD9E3646F2E6D6C8BCA2975A2FD3BC&key=50dc3ce05501dbbccbe9c6346c1e4294d8bb9001" alt="document paper icon" width="46" height="42" align="center" style="-ms-interpolation-mode: bicubic; Margin: 0 auto; clear: both; display: block; float: none; left: 46%; margin: 0 auto; max-width: 100%; outline: 0; position: absolute; text-align: center; text-decoration: none; top: -20px; width: 46px !important;">
+                    </center>
+                    <table class="spacer" style="border-collapse: collapse; border-spacing: 0; padding: 0; text-align: left; vertical-align: top;"><tbody><tr style="padding: 0; text-align: left; vertical-align: top;"><td height="45pxpx" style="-moz-hyphens: auto; -webkit-hyphens: auto; Margin: 0; border-collapse: collapse !important; color: #3c3e44; font-family: 'Roboto',Arial,sans-serif; font-size: 45pxpx; font-weight: 400; hyphens: auto; line-height: 45pxpx; margin: 0; padding: 0; text-align: left; vertical-align: top; word-wrap: break-word;">&#xA0;</td></tr></tbody></table> 
+                        <table align="center" class="container no-bg" style="Margin: 0 auto; background: 0 0 !important; border-collapse: collapse; border-spacing: 0; margin: 0 auto; padding: 0; text-align: inherit; vertical-align: top; width: 580px;"><tbody><tr style="padding: 0; text-align: left; vertical-align: top;"><td style="-moz-hyphens: auto; -webkit-hyphens: auto; Margin: 0; border-collapse: collapse !important; color: #3c3e44; font-family: 'Roboto',Arial,sans-serif; font-size: 32px; font-weight: 400; hyphens: auto; line-height: 19px; margin: 0; padding: 0; text-align: left; vertical-align: top; word-wrap: break-word;">
+                            <p class="description description--white" style="Margin: 0; Margin-bottom: 10px; color: #fff !important; font-family: 'Roboto',Arial,sans-serif; font-size: 18px; font-weight: 400; line-height: 25px; margin: 0; margin-bottom: 10px; padding: 0; padding-left: 10%; text-align: center; width: 75%;">Read the <b>“3 easy steps towards success in trading”</b> on the IQ Blog to boost your trading skills.</p>
+                            <table class="spacer" style="border-collapse: collapse; border-spacing: 0; padding: 0; text-align: left; vertical-align: top;"><tbody><tr style="padding: 0; text-align: left; vertical-align: top;"><td height="13pxpx" style="-moz-hyphens: auto; -webkit-hyphens: auto; Margin: 0; border-collapse: collapse !important; color: #3c3e44; font-family: 'Roboto',Arial,sans-serif; font-size: 13pxpx; font-weight: 400; hyphens: auto; line-height: 13pxpx; margin: 0; padding: 0; text-align: left; vertical-align: top; word-wrap: break-word;">&#xA0;</td></tr></tbody></table> 
+                            <column>
+                                <center data-parsed style="min-width: 580px; width: 100%;">
+                                   <table class="button float-center" style="Margin: 0 0 16px 0; border-collapse: collapse; border-spacing: 0; float: none; margin: 0 0 16px; padding: 0; text-align: center; vertical-align: top; width: auto !important;"><tr style="padding: 0; text-align: left; vertical-align: top;"><td style="-moz-hyphens: auto; -webkit-hyphens: auto; Margin: 0; border-collapse: collapse !important; color: #3c3e44; font-family: 'Roboto',Arial,sans-serif; font-size: 32px; font-weight: 400; hyphens: auto; line-height: 19px; margin: 0; padding: 0; text-align: left; vertical-align: top; word-wrap: break-word;"><table style="border-collapse: collapse; border-spacing: 0; padding: 0; text-align: left; vertical-align: top;"><tr style="padding: 0; text-align: left; vertical-align: top;"><td style="-moz-hyphens: auto; -webkit-hyphens: auto; Margin: 0; background: #fff; border: 0; border-collapse: collapse !important; border-radius: 3px; color: #003dd8; font-family: 'Roboto',Arial,sans-serif; font-size: 32px; font-weight: 400; hyphens: auto; line-height: 19px; margin: 0; padding: 0; text-align: left; vertical-align: top; word-wrap: break-word;"><a href="#" style="Margin: 0; border: 0 solid #fff; border-radius: 10px; color: #003dd8; display: inline-block; font-family: 'Roboto',Arial,sans-serif; font-size: 20px; font-weight: 700; line-height: 1.3; margin: 0; padding: 15px 100px; text-align: left; text-decoration: none;">Read more</a></td></tr></table></td></tr></table>
+                                </center>
+                            </column>
+                        </td></tr></tbody></table>
+                 </td></tr></tbody></table>
+             </td></tr></tbody></table>
+             <table align="center" class="container footer_wrapper no-bg float-center" style="Margin: 0 auto; background: 0 0 !important; border-collapse: collapse; border-spacing: 0; float: none; margin: 0 auto; min-height: 350px; padding: 0; text-align: center; vertical-align: top; width: 580px;"><tbody><tr style="padding: 0; text-align: left; vertical-align: top;"><td style="-moz-hyphens: auto; -webkit-hyphens: auto; Margin: 0; border-collapse: collapse !important; color: #3c3e44; font-family: 'Roboto',Arial,sans-serif; font-size: 32px; font-weight: 400; hyphens: auto; line-height: 19px; margin: 0; padding: 0; text-align: left; vertical-align: top; word-wrap: break-word;">
+                <table class="spacer" style="border-collapse: collapse; border-spacing: 0; padding: 0; text-align: left; vertical-align: top;"><tbody><tr style="padding: 0; text-align: left; vertical-align: top;"><td height="40pxpx" style="-moz-hyphens: auto; -webkit-hyphens: auto; Margin: 0; border-collapse: collapse !important; color: #3c3e44; font-family: 'Roboto',Arial,sans-serif; font-size: 40pxpx; font-weight: 400; hyphens: auto; line-height: 40pxpx; margin: 0; padding: 0; text-align: left; vertical-align: top; word-wrap: break-word;">&#xA0;</td></tr></tbody></table> 
+                <conatainer class="footer" style="color: #7c868d; font-size: 14px; list-style: 30px; position: relative; width: 60%;">
+                    <center data-parsed style="min-width: 580px; width: 100%;">
+                        <column class="box-center-rel float-center" align="center" style="position: relative; top: 20px;">
+                           <center data-parsed style="min-width: 580px; width: 100%;">
+                                <h3 class="footer_heading float-center" align="center" style="Margin: 0; Margin-bottom: 10px; background: #e2f4ff; color: inherit; font-family: 'Roboto',Arial,sans-serif; font-size: 14px; font-weight: 700; line-height: 1.3; margin: 0; margin-bottom: 10px; padding: 0 0 0 16px; text-align: left; text-transform: uppercase; width: 190px; word-wrap: normal;">General Risk Warning:</h3>
+                            </center>
+                        </column>
+                        <p class="footer_text footer_text--box float-center" align="center" style="Margin: 0; Margin-bottom: 10px; border: 1px solid #bacad9; color: #7c868d !important; font-family: 'Roboto',Arial,sans-serif; font-size: 14px; font-weight: 400; line-height: 19px; margin: 0; margin-bottom: 10px; padding: 20px 35px; text-align: center; width: 75%;">The financial services provided by this website carry a high level of risk and can result in the loss of all your funds. You should never invest money that you can not afford to lose.</p>
+                    </center>
+                </conatainer>
+                <table align="center" class="container no-bg" style="Margin: 0 auto; background: 0 0 !important; border-collapse: collapse; border-spacing: 0; margin: 0 auto; padding: 0; text-align: inherit; vertical-align: top; width: 580px;"><tbody><tr style="padding: 0; text-align: left; vertical-align: top;"><td style="-moz-hyphens: auto; -webkit-hyphens: auto; Margin: 0; border-collapse: collapse !important; color: #3c3e44; font-family: 'Roboto',Arial,sans-serif; font-size: 32px; font-weight: 400; hyphens: auto; line-height: 19px; margin: 0; padding: 0; text-align: left; vertical-align: top; word-wrap: break-word;">
+                 <table class="row" style="border-collapse: collapse; border-spacing: 0; display: table; padding: 0; position: relative; text-align: left; vertical-align: top; width: 100%;"><tbody><tr style="padding: 0; text-align: left; vertical-align: top;">
+                     <th class="small-12 large-12 columns first last" style="Margin: 0 auto; color: #3c3e44; font-family: 'Roboto',Arial,sans-serif; font-size: 32px; font-weight: 400; line-height: 19px; margin: 0 auto; padding: 0; padding-bottom: 16px; padding-left: 16px; padding-right: 16px; text-align: left; width: 564px;"><table style="border-collapse: collapse; border-spacing: 0; padding: 0; text-align: left; vertical-align: top; width: 100%;"><tr style="padding: 0; text-align: left; vertical-align: top;"><th style="Margin: 0; color: #3c3e44; font-family: 'Roboto',Arial,sans-serif; font-size: 32px; font-weight: 400; line-height: 19px; margin: 0; padding: 0; text-align: left;">
+                         <p style="Margin: 0; Margin-bottom: 10px; color: #3c3e44; font-family: 'Roboto',Arial,sans-serif; font-size: 32px; font-weight: 400; line-height: 19px; margin: 0; margin-bottom: 10px; padding: 0; text-align: left;">
+                            <center data-parsed style="min-width: 532px; width: 100%;">
+                             <a class="footer_text float-center" href="#" align="center" style="Margin: 0; color: #7c868d !important; font-family: 'Roboto',Arial,sans-serif; font-size: 14px; font-weight: 400; line-height: 1.3; margin: 0; padding: 0; text-align: center; text-decoration: none; width: 75%;">Privacy and Policy | </a>
+                             <a class="footer_text float-center" href="#" align="center" style="Margin: 0; color: #7c868d !important; font-family: 'Roboto',Arial,sans-serif; font-size: 14px; font-weight: 400; line-height: 1.3; margin: 0; padding: 0; text-align: center; text-decoration: none; width: 75%;">Unsubscribe</a>
+                             </center>
+                         </p>
+                     </th>
+<th class="expander" style="Margin: 0; color: #3c3e44; font-family: 'Roboto',Arial,sans-serif; font-size: 32px; font-weight: 400; line-height: 19px; margin: 0; padding: 0 !important; text-align: left; visibility: hidden; width: 0;"></th></tr></table></th>
+                 </tr></tbody></table>
+                </td></tr></tbody></table>
+             </td></tr></tbody></table>
+             <table align="center" class="container float-center" style="Margin: 0 auto; background: #fff; border-collapse: collapse; border-spacing: 0; float: none; margin: 0 auto; padding: 0; text-align: center; vertical-align: top; width: 580px;"><tbody><tr style="padding: 0; text-align: left; vertical-align: top;"><td style="-moz-hyphens: auto; -webkit-hyphens: auto; Margin: 0; border-collapse: collapse !important; color: #3c3e44; font-family: 'Roboto',Arial,sans-serif; font-size: 32px; font-weight: 400; hyphens: auto; line-height: 19px; margin: 0; padding: 0; text-align: left; vertical-align: top; word-wrap: break-word;">
+                 
+             </td></tr></tbody></table>
+            <table align="center" class="float-center" style="Margin: 0 auto; border-collapse: collapse; border-spacing: 0; float: none; margin: 0 auto; padding: 0; text-align: center; vertical-align: top;">
+                <tbody>
+                    <tr style="padding: 0; text-align: left; vertical-align: top;">
+                        <td style="-moz-hyphens: auto; -webkit-hyphens: auto; Margin: 0; border-collapse: collapse !important; color: #3c3e44; font-family: 'Roboto',Arial,sans-serif; font-size: 32px; font-weight: 400; hyphens: auto; line-height: 19px; margin: 0; padding: 0; text-align: left; vertical-align: top; word-wrap: break-word;">
+<!--                          
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+          </center>
+        </td>
+      </tr>
+    </table>
+    <table>
+      <tr>  </tr>
+    </table>
+</body>
+</html>--></td></tr></tbody></table></center></td></tr></table></body></html>
